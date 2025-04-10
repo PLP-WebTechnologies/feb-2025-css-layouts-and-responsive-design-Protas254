@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid Layout</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <header>
+    <nav class="navbar">
+        <div class="logo">My Website</div>
+        <ul class="nav-links">
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#Products">Products</a></li>
+            <li><a href="#Location">Location</a></li>
+            <li><a href="#Mission">Mission</a></li>
+            <li><a href="#Contact">Contact Me</a></li> <!-- New Contact Me link -->
+        </ul>
+    </nav>
+</header>
+            <form class="search-bar" action="#Search" method="get">
+                <input type="text" name="search" placeholder="Search..." aria-label="Search">
+                <button type="submit">Search</button>
+            </form>
+        </nav>
+    </header>
+    <main class="container">
+        <aside class="sidebar">
+            <h2>Advertisements</h2>
+            <p>Our Advertisements.</p>
+            <h2>Follow Us</h2>
+            <div class="social-media">
+               <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
+                <li><a href="https://www.twitter.com" target="_blank">Twitter</a></li>
+                <li><a href="https://www.instagram.com" target="_blank">Instagram</a></li>
+                <li><a href="https://www.linkedin.com" target="_blank">LinkedIn</a></li>
+                <li><a href="https://www.youtube.com" target="_blank">YouTube</a></li>
+            </div>
+        </aside>
+        <div class="content">
+    <h1>Visit Our Beauty Shop</h1>
+    <div class="image-column">
+        <img src="./4b390507-5bee-4b58-86f3-36062edb6828.jpg" alt="Our Products" class="image-column-img" height="400" width="200">
+        <p>Our Products</p>
+        <img src="./Welcome to Maher the Makeover, where beauty meets….jpg" alt="Welcome" class="image-column-img" height="400" width="200">
+        <p>Welcome to our beauty parlour</p>
+    </div>
+    <video controls width="400" height="200" autoplay muted loop>
+        <source src="./skincare-vs-makeup-skincare-preppyyyy-beautyproducts-preppygrwm-makeupproducts.mp4" type="video/mp4">
+    </video>
+    <p>Choose DIFFERENT hair color and styles every day with us</p>
+</div>
+        </section>
+
+        <section id="Home" class="Home">
+            <div class="grid-container">
+                <h2>Home</h2>
+                <div class="Home-content">
+                    <p>Welcome to Viron Beauty, where the vibrant beauty of Kenya inspires everything we do. Founded in the heart of Nairobi, we believe in harnessing the power of nature to create exceptional beauty products that nourish your skin and celebrate your unique radiance.</p>
+                    <p>Our mission is to provide you with high-quality, ethically sourced beauty products that enhance your natural beauty while promoting sustainability and environmental responsibility. We are committed to using only the finest ingredients, carefully selected from local Kenyan sources, to ensure that our products are not only effective but also safe for you and the planet.</p>
+            </div>
+        </section>
+        <section id="Products" class="Products">
+            <div class="grid-container">
+                <h2>Products</h2>
+                <h3>Our Products are cartegorised as follows</h3>
+                <div class="Products-content">
+                    <h4>Skincare</h4>
+                    <div class="skincare-box">
+                        <p>These products focus on maintaining healthy skin and addressing specific concerns. Examples include Cleansers (to remove dirt, oil, and makeup)Moisturizers (to hydrate and protect the skin)</p>
+                    </div>
+            </div>
+                <div>
+                    <h4>Makeup</h4>
+                    <div class="makeup-box">
+                        <p>These products enhance facial features and create various looks. Examples include: Foundations (to even out skin tone). Concealers (to cover blemishes and dark circles). Eyeshadows (to add color to eyelids). Mascaras (to enhance eyelashes). Lipsticks (to add color to lips). Blushes (to add color to cheeks).</p>
+                </div>
+                <div>
+                    <h4>Haircare</h4>
+                    <div class="haircare-box">
+                        <p>These products focus on maintaining healthy hair and addressing specific concerns. Examples include: Shampoos (to cleanse hair). Conditioners (to moisturize and detangle hair). Hair masks (deep conditioning treatments). Styling products (gels, sprays, and creams for styling). Serums (to add shine and reduce frizz).</p>
+                </div>
+            </div>
+            <section id="Location" class="Location">
+                <div class="container">
+                    <h2>Location</h2>
+                    <div class="Location-content">
+                        <address>
+                            <strong>My Beauty Store</strong><br>
+                            123 Main Street<br>
+                            Nairobi, Nairobi County<br>
+                            Kenya
+                          </address>
+                </div>
+                </div>
+                <section id="Mission" class="Mission">
+                    <div class="container">
+                        <h2>Mission</h2>
+                        <div class="Mission">
+                            <p>A concise and engaging section introducing the brand's values, philosophy, and what makes it unique. </p>
+                            <p>Focus on the "why" behind the brand and connect with the audience on an emotional level.</p>
+                        </div>
+                    </div>
+                </section>
+                <section id="Contact" class="Contact">
+                    <div class="container">
+                        <h2>Contact Me</h2>
+                        <form action="mailto:protasjunior254@gmail.com" method="post" enctype="text/plain">
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                            <label for="message">Message:</label>
+                            <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                            <button type="submit">Send</button>
+                        </form>
+                    </div>
+                </section>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Protas Junior 254 . All rights reserved.</p>
+            <div class="info">
+                <p>Phone: +254743849304</p>
+                <p>Email: protasjunior254@gmail.com</p>
+            </div>
+            <div class="social-links">
+                <a href="www.linkedin.com/in/protas-junior-ba2024244" target="_blank">LinkedIn</a>
+                <a href="https://github.com/Protas254" target="_blank">GitHub</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
